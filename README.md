@@ -13,3 +13,7 @@
 - $ git add -A
 - $ git commit -m "first commit"
 - $ git push -u -f origin master
+
+# tagging the version ( vMajor.Minor.Patch )
+- $ git tag -a v1.0.0 -m "initial release"
+- $ git push origin master --tags
